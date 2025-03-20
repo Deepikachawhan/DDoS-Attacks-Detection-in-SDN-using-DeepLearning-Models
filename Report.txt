@@ -33,7 +33,6 @@ Benefits of SDN
 
 
 
-
 How DDoS Attacks Occur in SDN?
 
 Vulnerabilities in SDN
@@ -74,7 +73,7 @@ Application: Used to analyze SDN traffic patterns and identify attack strategies
 
 SNT-DDoS Attack Dataset
 Description: Includes various DDoS attack patterns occurring in modern network topologies.
-Models Used: TabNet, LSTM, AutoML, MLP
+Models Used: TabNet, LSTM, MLP, CNN
 Application: Supports multi-model approaches to classify complex attack vectors across different network architectures.
 
 Key Deep Learning Concepts
