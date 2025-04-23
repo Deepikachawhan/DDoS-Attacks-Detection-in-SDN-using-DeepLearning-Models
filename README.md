@@ -42,7 +42,7 @@ The project utilizes a dataset containing network traffic features extracted fro
 ---
 
 ## ⚙️ Methodology  
-
+I. CLASSIFICATION
 1. **🔧 Data Preprocessing:**  
    The dataset is cleaned, normalized, and prepared for model training.  
 
@@ -70,10 +70,19 @@ The project utilizes a dataset containing network traffic features extracted fro
 5. **⚖️ Comparison:**  
    The performance of different models is compared to identify the most effective approach.  
 
+II.
+🔧Implement FEDERATED LEARNING for DDoS Detection (Workflow)
+1. Prepare Data: Take each dataset as a client to simulate different network nodes.
+2. Model Selection: Create an optimal custom deep learning model for attack detection.
+3. FL Framework: Implement FL using Flower, FedAvg, or PySyft.
+4. Local Training: Each client/node trains its model on local data (e.g., SDN controller logs).
+5. Global Aggregation: The central server combines model updates for improved detection.
+6. Evaluation: Assess the model’s performance on unseen attack patterns.
 ---
 
 ## 🌟 Results  
 The project demonstrates the effectiveness of DL models in detecting DDoS attacks in SDNs. The results show that the chosen models achieve high accuracy and provide a promising solution for enhancing network security.  
+By applying FL, you create a privacy-preserving, scalable, and adaptive DDoS detection system that efficiently combats evolving cyber threats. 🚀
 
 ---
 
